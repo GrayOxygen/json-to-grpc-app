@@ -2,7 +2,7 @@
 # 介绍
 这个工程只是做一个GUI图形界面app，拷贝json到最左边的文本框点击一下别处就可以得到grpc message了 <br>
 用到的开源项目：https://github.com/asticode/go-astilectron<br>
-实际的json解析转换实现是在我的另一个工程里 https://github.com/GrayOxygen/json-go-struct
+实际的json解析转换实现是在我的另一个工程里 https://github.com/GrayOxygen/json-to-grpc
 ## 为什么用?
  
 >用mac的话，直接解压后双击就行，不必放在Applications下

@@ -1,4 +1,4 @@
-<b>[中文文档](https://github.com/GrayOxygen/json-to-grpc-app/blob/master/README-CN.md "中文文档")</b>
+<b>[中文文档](https://github.com/GrayOxygen/json-to-grpc-app/blob/feature/proto/README-CN.md "中文文档")</b>
 # Introduction
 this project just made a GUI app, copy json to left textarea then click elsewhere(just blur) you will get grpc message <br>
 I used a open source project(much appreciated)：https://github.com/asticode/go-astilectron<br>

@@ -2,8 +2,8 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/GrayOxygen/json-go-struct/apis"
-	"github.com/GrayOxygen/json-go-struct/util"
+	"github.com/GrayOxygen/json-to-grpc/apis"
+	"github.com/GrayOxygen/json-to-grpc/util"
 	"github.com/asticode/go-astichartjs"
 	"io/ioutil"
 	"os"

@@ -34,6 +34,9 @@
 </style>
 
 <body>
+
+
+
 <div class="parse-box">
 
     <div class="form-group item " style="flex-grow: 1">
@@ -49,6 +52,27 @@
     </div>
 
 </div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            常用命令
+        </h3>
+    </div>
+    <div class="panel-body">
+        <ul class="list-group">
+            <li class="list-group-item"> <bold>將pb文件中omitempty去掉的命令：</bold>
+                <span class="badge">加油哦</span>
+            </li>
+            <li class="list-group-item">ls *.pb.go | xargs -n1 -IX bash -c 'sed s/,omitempty// X > X.tmp && mv X{.tmp,}'</li>
+            <li class="list-group-item">ls xxxx.pb.go | xargs -n1 -IX bash -c 'sed s/,omitempty// X > X.tmp && mv X{.tmp,}'</li>
+            <li class="list-group-item"><bold>根据proto文件在当前目录下生成pb文件：</bold></li>
+            <li class="list-group-item">protoc -I . ./xxx.proto --go_out=plugins=grpc:./</li>
+        </ul>
+    </div>
+</div>
+
+
 
 <script src="static/js/index.js"></script>
 <script src="static/lib/astiloader/astiloader.js"></script>

@@ -8,10 +8,6 @@
     {
       "arch": "amd64",
       "os": "windows"
-    },
-    {
-      "arch": "amd64",
-      "os": "darwin"
     }
 
   ]
